@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.Navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.Navbar__S1--title{
+    color: #a435f0;
+}
+.Navbar__S2{
+     padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.Navbar__S2 input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+.Navbar__S2 input:focus{
+    outline: none;
+}
+.Navbar__S3{
+    display: flex;
+    align-items: center;
+}
+.Navbar__S3{
+    display: flex;
+    gap: 10px;
+}
+.Mylearning{
+     position: relative;
+     cursor: pointer;
+}
+.Mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 150%;
+    padding: 20px;
+    right: 0;
+    display: none;
+}
+.Mylearning:hover .Mylearning__popup{
+    display: block;
+}
+.Categories{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.Categories p{
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Sale-img{
+    position: relative;
+}
+.Sale-img img{
+    width: 100%;
+}
+.Sale-img__offer{
+    width: 35%;
+    border: solid black 2px;
+    background-color: white;
+    padding: 2%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.Recommended{
+    padding: 10px;
+}
+.Recommended-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.Course-Card{
+    width: 350px;
+}
+.Course-Card img{
+    height: 50%;
+    width: 100%;
+}
+.Topics{
+    padding: 10px;
+}
+.Topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.Topics__container p{
+    border: solid 1px black;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.Popular{
+    padding: 10px;
+}
+.Popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__1{
+    display: flex;
+    gap: 10px;
+}
+.footer__1 p{
+    margin: 20px;
+}
+.footer__2{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.footer__2 h1{
+    color: #a435f0;
+
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.Popular{
+    padding: 10px;
+}
+.Popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__1{
+    display: flex;
+    gap: 10px;
+}
+.footer__1 p{
+    margin: 20px;
+}
+.footer__2{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.footer__2 h1{
+    color: #a435f0;
+}
